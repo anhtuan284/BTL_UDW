@@ -1,0 +1,122 @@
+[
+    {
+        "name" : "Atificial Intelligence",
+        "category" : "AI",
+        "price" : "50.25",
+        "imgSrc" : "images/i1.jpg"
+    },
+    {
+        "name" : "Application",
+        "category" : "Software",
+        "price" : "102.00",
+        "imgSrc" : "images/i2.jpg"
+    },
+    {
+        "name" : "Top 10 AI",
+        "category" : "AI",
+        "price" : "15.00",
+        "imgSrc" : "images/i3.jpg"
+    },
+    {
+        "name" : "File Sercue",
+        "category" : "IS",
+        "price" : "23.75",
+        "imgSrc" : "images/i4.jpg"
+    },
+    {
+        "name" : "Troy",
+        "category" : "IS",
+        "price" : "50.00",
+        "imgSrc" : "images/i5.jpg"
+    },
+    {
+        "name" : "Data Science",
+        "category" : "Data",
+        "price" : "200.50",
+        "imgSrc" : "images/i6.jpg"
+    },
+    {
+        "name" : "Data Science 2",
+        "category" : "Data",
+        "price" : "5.50",
+        "imgSrc" : "images/i7.jpg"
+    },
+    {
+        "name" : "IoT",
+        "category" : "IOT",
+        "price" : "25.00",
+        "imgSrc" : "images/i8.jpg"
+    },
+    {
+        "name" : "Data Analyst",
+        "category" : "Data",
+        "price" : "49.00",
+        "imgSrc" : "images/i9.jpg"
+    },
+    {
+        "name" : "Internet of Thing",
+        "category" : "IOT",
+        "price" : "60.99",
+        "imgSrc" : "images/i10.jpg"
+    },
+    {
+        "name" : "Automartic",
+        "category" : "AI",
+        "price" : "69.20",
+        "imgSrc" : "images/i11.jpg"
+    },
+    {
+        "name" : "DS",
+        "category" : "Data",
+        "price" : "224.99",
+        "imgSrc" : "images/i12.jpg"
+    },
+    {
+        "name" : "I - Privacy",
+        "category" : "Sercue",
+        "price" : "90.25",
+        "imgSrc" : "images/i13.jpg"
+    },
+    {
+        "name" : "Beauty of Knowledge",
+        "category" : "AI",
+        "price" : "99.99",
+        "imgSrc" : "images/i14.jpg"
+    },
+    {
+        "name" : "Robots",
+        "category" : "AI",
+        "price" : "75.80",
+        "imgSrc" : "images/i15.jpg"
+    },
+    {
+        "name" : "Cooperation",
+        "category" : "AI",
+        "price" : "159.00",
+        "imgSrc" : "images/i1.jpg"
+    },
+    {
+        "name" : "Wing chair",
+        "category" : "Chair",
+        "price" : "100.50",
+        "imgSrc" : "images/i2.jpg"
+    },
+    {
+        "name" : "Wooden armchair",
+        "category" : "Chair",
+        "price" : "187.45",
+        "imgSrc" : "images/i4.jpg"
+    },
+    {
+        "name" : "Wooden dining table",
+        "category" : "Table",
+        "price" : "322.50",
+        "imgSrc" : "images/i5.jpg"
+    },
+    {
+        "name" : "Wooden table",
+        "category" : "Table",
+        "price" : "288.99",
+        "imgSrc" : "images/i6.jpg"
+    }
+]
