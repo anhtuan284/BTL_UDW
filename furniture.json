@@ -96,26 +96,26 @@
         "imgSrc" : "images/i1.jpg"
     },
     {
-        "name" : "Wing chair",
-        "category" : "Chair",
+        "name" : "App Dev",
+        "category" : "Application",
         "price" : "100.50",
         "imgSrc" : "images/i2.jpg"
     },
     {
-        "name" : "Wooden armchair",
-        "category" : "Chair",
+        "name" : "API Sercurity",
+        "category" : "Sercue",
         "price" : "187.45",
         "imgSrc" : "images/i4.jpg"
     },
     {
-        "name" : "Wooden dining table",
-        "category" : "Table",
+        "name" : "Stack",
+        "category" : "Sercue",
         "price" : "322.50",
         "imgSrc" : "images/i5.jpg"
     },
     {
-        "name" : "Wooden table",
-        "category" : "Table",
+        "name" : "Data Analyst 2",
+        "category" : "Data",
         "price" : "288.99",
         "imgSrc" : "images/i6.jpg"
     }

@@ -97,6 +97,7 @@ header .container{
 .navbar-collapse{
     position: absolute;
     width: 20%;
+    min-width: 200px;
     background-color: #ebebeb;
     top: 100%;
     left: 50%;
@@ -300,7 +301,30 @@ header .container{
     background: var(--hitech-blue);
     color: #fff;
 }
-
+.down-arrow {
+   font-size: 4rem;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+.down-arrow i {
+    margin-bottom: 2rem;
+    animation: arrow 1s linear infinite;
+}
+@keyframes arrow {
+    0% {
+        color: black;
+        transform: translate(0,-30%);
+    }
+    50% {
+        transform: translate(0,20%);
+        color: var(--hitech-blue);
+    }
+    100% {
+        color: black;
+        transform: translate(0,-30%);
+    }
+}
 /* products */
 .products{
     padding: 6rem 0;
@@ -408,7 +432,7 @@ footer{
     background-color: var(--baltic-sea);
 }
 .footer-banner{
-    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/footer-banner.jpg) center/cover no-repeat;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(images/footer-banner.png) center/cover no-repeat;
     padding: 3rem 0;
 }
 .footer-banner{
