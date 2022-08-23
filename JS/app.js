@@ -41,7 +41,7 @@ function updateCartInfo(){
 
 // load product items content form JSON file
 function loadJSON(){
-    fetch('furniture.json') //fetch trả về stream : 
+    fetch('./JS/furniture.json') //fetch trả về stream : 
     .then(response => response.json()) // .then(function(response) {return response.json()}) 
      //respose.json() trả về 1 promise đã JSON.parse
     .then(data =>{ 
@@ -93,8 +93,9 @@ function getProductInfo(product){
     cartItemID++;
     addToCartList(productInfo);
     saveProductInStorage(productInfo);
+    emptyCart = false;
 }
-
+var emptyCart = true;
 // add the selected product to the cart list
 function addToCartList(product){
     const cartItem = document.createElement('div');
@@ -113,6 +114,7 @@ function addToCartList(product){
         </button>
     `;
     cartList.appendChild(cartItem);
+    
 }
 
 // save the product in the local storage
