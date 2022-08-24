@@ -55,9 +55,13 @@
                 <!-- end of single item  -->
               </div>
 
-              <div class = "cart-total">
+              <div class = "cart-total" action="./cc.html">
                 <h3>Total: $</h3>
                 <span id = "cart-total-value"></span>
+                <button class="cart-total-buy" onclick="window.location.href = './buy.html'">
+                  <h3 class="buy-title">Purchase</h3>
+                  <i class="fa-solid fa-money-check-dollar buy-btn"></i>
+                </button>
               </div>
             </div>
           </div>
@@ -70,8 +74,8 @@
             <h1>Your future needs you </h1>
             <p class = "text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos eveniet, quis nisi recusandae assumenda ea sequi obcaecati accusantium in provident dolore debitis autem neque vel commodi atque voluptates incidunt aliquam delectus veritatis? Exercitationem, fugit sed!</p>
             <div class = "btns">
-              <button type = "button" class = "btn" href="">know more</button>
-              <button type = "button" class = "btn">more info</button>
+              <button type = "button" class = "btn" onclick="window.location.href='#products-li'">know more</button>
+              <button type = "button" class = "btn" onclick="window.location.href='#products-li'">more info</button>
             </div>
           </div>
 
@@ -88,7 +92,7 @@
     <!-- end of header -->
 
     <!-- products section  -->
-    <section class = "products">
+    <section class = "products" id="products-li">
       <div class = "container">
         <h2>Our Products</h2>
         <div class = "product-list">

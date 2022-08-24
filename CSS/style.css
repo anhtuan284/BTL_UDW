@@ -96,7 +96,7 @@ header .container{
 }
 .navbar-collapse{
     position: absolute;
-    width: 20%;
+    width: 15%;
     min-width: 200px;
     background-color: #ebebeb;
     top: 100%;
@@ -113,7 +113,7 @@ header .container{
     -moz-transition: var(--trans);
     -ms-transition: var(--trans);
     -o-transition: var(--trans);
-    border-radius: 5%;
+    border-radius: 5px;
 }
 
 /* js related class */
@@ -229,6 +229,8 @@ header .container{
 }
 .cart-item img{
     width: 80px;
+    border-radius: 5px;
+    margin-left: 20px;
 }
 .cart-item-info{
     text-align: center;
@@ -237,6 +239,7 @@ header .container{
     display: block;
 }
 .cart-total{
+    position: relative;
     padding: 1rem;
     display: flex;
     align-items: center;
@@ -252,8 +255,29 @@ header .container{
     font-size: 1.3rem;
     font-weight: 500;
 }
-
-
+.cart-total-buy {
+    height: 70%;
+    padding: 1rem;
+    background-color: white;
+    color: var(--hitech-blue);
+    position: absolute;
+    right: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    border: 0;
+    transition: var(--trans);
+}
+.buy-btn {
+    font-size : 1.4rem;
+    transform: translate(0,10%);
+    margin-left: 5px;
+}
+.cart-total-buy:hover {
+    background-color: black;
+    color: white;
+}
 /* banner  */
 .banner{
     flex: 1;
@@ -349,6 +373,7 @@ header .container{
 }
 .product-img img{
     position: absolute;
+    border-radius: 10px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -357,6 +382,7 @@ header .container{
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
     width: 60%;
+    max-width: 200px;
     margin: 0 auto;
     transition: var(--trans);
     -webkit-transition: var(--trans);
@@ -373,7 +399,7 @@ header .container{
 }
 .add-to-cart-btn{
     position: absolute;
-    top: 85%;
+    top: 87%;
     left: 50%;
     transform: translate(-50%, -50%);
     -webkit-transform: translate(-50%, -50%);
@@ -392,6 +418,7 @@ header .container{
     -o-transition: var(--trans);
     opacity: 0;
     width: 57%;
+    max-width: 200px;
 }
 .product-item:hover .add-to-cart-btn{
     opacity: 1;
